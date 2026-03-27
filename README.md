@@ -85,7 +85,7 @@ python3 gee_export_optimized.py --project biodiversity-intactness-index
 In the Terminal, go to the folder where the script is saved:
 
 ```bash
-cd "/Users/candacewyc/Desktop/KfW/ODP datasets/Biodiversity Intactness Index"
+cd "/Users/"
 ```
 
 (If your folder is different, adjust the path accordingly.)
@@ -94,7 +94,7 @@ cd "/Users/candacewyc/Desktop/KfW/ODP datasets/Biodiversity Intactness Index"
 
 The first time you use Earth Engine on this computer, the script may ask you to log in.
 
-**Which account to use:** The script is set up to use **geoprocessing.cwyc@gmail.com**. When the sign-in page opens, make sure you choose that account—especially if you have several Google accounts logged in (the browser often uses the default one otherwise). You can also use a private/incognito window with only that account logged in.
+**Which account to use:** The script is set up to use **@gmail.com**. When the sign-in page opens, make sure you choose that account—especially if you have several Google accounts logged in (the browser often uses the default one otherwise). You can also use a private/incognito window with only that account logged in.
 
 **If the wrong account is used automatically:** Run the script with **`--login`** first. This clears cached credentials and opens the Google sign-in page so you can choose the right account in the browser. After signing in, run the script again without `--login` to perform the export.
 
@@ -119,7 +119,7 @@ python3 gee_export_optimized.py
 
 - A link (URL) may appear in the Terminal.
 - Click or copy this link into your web browser.
-- **Sign in with geoprocessing.cwyc@gmail.com** (or the account you set with `--expected-account`) and grant access.
+- **Sign in with @gmail.com** (or the account you set with `--expected-account`) and grant access.
 - You will receive an **authorization code**.
 - Copy that code back into the Terminal when asked.
 - After this, Earth Engine will be set up for this computer.
